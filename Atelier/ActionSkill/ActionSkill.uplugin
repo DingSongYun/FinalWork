@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ActionSkill",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Songyun.Ding",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Plugins" :
+	[
+		{
+			"Name": "CommonLibs",
+			"Enabled" :  true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "ActionSkill",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}

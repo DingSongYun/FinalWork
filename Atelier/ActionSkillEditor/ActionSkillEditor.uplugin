@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ActionSkillEditor",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "SongYun.Ding",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Plugins" :
+	[
+		{
+			"Name": "ActionSkill",
+			"Enabled" :  true
+		},
+		{
+			"Name": "CommonLibs",
+			"Enabled" :  true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "ActionSkillEditor",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
